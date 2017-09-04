@@ -1,17 +1,22 @@
 {
   "name": "myapp",
-  "version": "0.0.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goformarty/express-myapp.git"
+  },
+  "author": "Marty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goformarty/express-myapp/issues"
+  },
+  "homepage": "https://github.com/goformarty/express-myapp#readme",
   "dependencies": {
-    "body-parser": "~1.17.1",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.3",
-    "express": "~4.15.2",
-    "morgan": "~1.8.1",
-    "pug": "~2.0.0-beta11",
-    "serve-favicon": "~2.4.2"
+    "express": "^4.15.4"
   }
 }
